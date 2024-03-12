@@ -3,11 +3,11 @@
 
 
 
-**Project Overview**:
+# Project Overview:
 
 This project is aimed at building an API using Node.js with Express server to handle user input. The API will validate the input data according to predefined rules and store validated data in a MySQL database using Prisma ORM. Additionally, the API will generate a PDF document containing user information and return the path to the generated PDF file in the API response.
 
-**Requirements:**
+# Requirements:
 
 Node.js
 
@@ -62,23 +62,19 @@ This command initializes a new Prisma project and creates a prisma directory wit
 
 **Configure Prisma to use MySQL: After initializing Prisma, configure it to use MySQL as the database provider. Open the prisma/schema.prisma file and replace its contents with the following:**
 
-**prisma**
+prisma
 
-```datasource db {
+`datasource db {
   provider = "mysql"
   url      = env("DATABASE_URL")
 }
 
 generator client {
   provider = "prisma-client-js"
-}```
-Replace DATABASE_URL with the connection URL for your MySQL database. For local development, the URL might look like
-`mysql://username:password@localhost:3306/your_database_name.`
+}`
 
-Define your Data Model: In the schema.prisma file, 
+Define your Data Model: In the schema.prisma file
 ### define your data model. For example:
-
-
 schema.prisma
 
 ```model User {
@@ -89,9 +85,14 @@ schema.prisma
   emailAddress String
 }```
 
-**Generate Prisma Client: Generate the Prisma client by running the following command:**
 
-`prisma generate`
+ Replace DATABASE_URL with the connection URL for your MySQL database. For local development, the URL might look like
+mysql://username:password@localhost:3306/your_database_name.
+
+
+ Prisma Client: Generate the Prisma client by running the following command:
+
+prisma generate
 
 This command generates the Prisma Client based on your data model.
 
