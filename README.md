@@ -42,7 +42,6 @@ Install MySQL: If you haven't already, install MySQL on your system. You can dow
 
 Create a Database: Once MySQL is installed, open a terminal or command prompt and log in to MySQL with a user account that has sufficient privileges to create databases. Then, create a new database for your application.
 **For example:**
-
 `CREATE DATABASE your_database_name;`
 
 # Install Prisma CLI: 
@@ -99,6 +98,13 @@ Generate the Prisma client by running the following command:**
 
 This command generates the Prisma Client based on your data model.
 
-### snapshots of outputs
+# snapshots of outputs
 
 
+## 1.In these Response we get user created and path of the pdf
+
+<img width="943" alt="Api response" src="https://github.com/surendrayadavcse/swivl-assignment_2/assets/155749543/f2009a0d-79b9-4a73-a798-8373ff5d1d99">
+
+## 1.data in the pdf what we post to database 
+
+<img width="942" alt="pdf created output" src="https://github.com/surendrayadavcse/swivl-assignment_2/assets/155749543/53389fda-f81b-421e-a094-d10c63865a43">
