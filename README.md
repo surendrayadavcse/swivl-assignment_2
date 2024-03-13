@@ -91,9 +91,10 @@ model User {
 `mysql://username:password@localhost:3306/your_database_name.`
 
 
-Prisma Client: Generate the Prisma client by running the following command:
+**Prisma Client: 
+Generate the Prisma client by running the following command:**
 
-prisma generate
+`prisma generate`
 
 This command generates the Prisma Client based on your data model.
 
