@@ -41,7 +41,8 @@ git clone <repository_url>
 Install MySQL: If you haven't already, install MySQL on your system. You can download and install MySQL from the official website: MySQL Downloads.
 
 Create a Database: Once MySQL is installed, open a terminal or command prompt and log in to MySQL with a user account that has sufficient privileges to create databases. Then, create a new database for your application.
-# For example:
+**For example:**
+
 `CREATE DATABASE your_database_name;`
 
 # Install Prisma CLI: 
