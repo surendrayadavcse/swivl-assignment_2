@@ -2,23 +2,15 @@
 
 This project is aimed at building an API using Node.js with Express server to handle user input. The API will validate the input data according to predefined rules and store validated data in a MySQL database using Prisma ORM. Additionally, the API will generate a PDF document containing user information and return the path to the generated PDF file in the API response.
 
-# Requirements:
-
-Node.js
-
-Express
-
-Prisma ORM
-
-MySQL
-
-PDFKit
-
-Body-parser
-
-Express-validator
-
-fs (File System module)
+## Requirements
+- Node.js
+- Prisma ORM
+- MySQL server
+- Express.js
+- Body-parser
+- Express-validator
+- PDFKit
+- fs (File System module)
 
 
 # Project Setup Instructions:
