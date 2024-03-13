@@ -8,7 +8,7 @@ const PDFDocument = require('pdfkit');
 const prisma = new PrismaClient();
 const app = express();
 
-// Middleware
+// Middleware 
 app.use(bodyParser.json());
 
 // Express validation rules based on the key-value validation provided
